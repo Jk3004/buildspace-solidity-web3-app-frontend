@@ -1,0 +1,196 @@
+.mainContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 64px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    border: solid grey;
+    padding: 25px;
+    border-radius: 20px;
+    border-style: groove;
+
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.bio {
+    text-align: center;
+}
+
+.me {
+    color: #40e0d0;
+}
+
+.connect-msg {
+    margin-top: 25px;
+    color: #FEE715FF;
+}
+
+.form {
+    text-align: center;
+}
+
+/* .input-container {
+    margin-top: 25px;
+} */
+
+.input-message {
+    text-align: center;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 216);
+    /* background-color: #fafafa; */
+    border: 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    transition: .3s box-shadow;
+}
+
+.input-message:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+}
+
+.input-message:focus {
+    outline: none;
+    /* box-shadow: 0 0 0 4px hsl(213, 90%, 70%); */
+}
+
+/* .btn-container {
+    display: flex;
+    justify-content: center;
+} */
+
+.waveButton {
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 12px;
+    border: 0;
+    border-radius: 5px;
+    transition: 0.2s;
+    will-change: transform;
+    background: hsl(250, 84%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.waveButton:hover {
+    background: hsl(250, 84%, 60%);
+}
+
+.waves-container {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid red;
+
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: solid red; */
+    margin: 50px;
+    width: 35%;
+}
+
+.waves-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    /* width: 60%; */
+    width: 100%;
+    /* margin: 15px; */
+}
+
+.waves-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    text-align: center;
+    background-color: silver;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.container p {
+    color: purple;
+    margin: 5px;
+}
+
+.container .address {
+    font-weight: 600;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.container .address:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: black;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.container .copied {
+    color: green;
+}
+
+/* .hello {
+    width: 100%;
+} */
+
+.container .message {
+    font-family: monospace;
+    font-size: large;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footer {
+    font-family: cursive;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #6f6f82;
+    padding: 10px;
+    width: 100%;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
