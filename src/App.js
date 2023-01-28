@@ -62,6 +62,7 @@ export default function App() {
             console.log("Connected", accounts[0]);
             setCurrentAccount(accounts[0]);
             toast.success('Wallet Connected');
+            getAllWaves();
         }
         catch (error) {
             console.error(error);
@@ -148,7 +149,6 @@ export default function App() {
     }
 
     const getAllWaves = async () => {
-        console.log('Inside getAllWaves()');
         try {
             const { ethereum } = window;
             if (ethereum) {
