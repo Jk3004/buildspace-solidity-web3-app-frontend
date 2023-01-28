@@ -8,3 +8,5 @@ Basic React app to interact with contract deployed at [0x0c64Da32cAB24517fE9e6Df
 
 1. Run `npm install` at the root of your directory
 2. Run `npm run start` to start the project
+
+[buildspace-solidity-web3-app](https://buildspace-solidity-web3-app-frontend.vercel.app/)
